@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# List non-hidden files in the current directory, printing only the part after the first dash
+
+for file in *; do
+  name="${file#*-}"
+  echo "$name"
+done
