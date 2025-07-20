@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Kill a process and show its PID before
+ps -ef | grep "[k]ill_me_now" | awk '{print $2}' | xargs kill
