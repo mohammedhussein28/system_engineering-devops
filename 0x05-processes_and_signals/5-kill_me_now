@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-# Script to be killed
-while true
-do
-  echo "I hate the kill command"
-  sleep 2
-done
