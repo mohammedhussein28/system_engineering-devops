@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Kills all processes except the parent
+while true
+do
+  echo "I am the only one"
+  sleep 1
+done
