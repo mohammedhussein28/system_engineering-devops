@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Kill a process named "kill_me_now"
+pkill -f "kill_me_now"
