@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Display the line from ps showing the script's Bash PID
+ps -ef | grep bash | grep "$$"
