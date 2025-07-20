@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Display PID of Bash running this script
+ps -ef | grep "$$" | grep -v grep | awk '{print $2}'
