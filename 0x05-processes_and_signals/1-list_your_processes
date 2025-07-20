@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Display a snapshot of your current processes
-ps
+# Display the list of currently running process IDs (PIDs)
+
+ps -eo pid
