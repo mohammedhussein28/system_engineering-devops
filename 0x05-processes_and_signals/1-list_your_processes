@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Display the list of currently running process IDs (PIDs)
+# This script lists all currently running process IDs (PIDs)
 
-ps -eo pid
+ps -eo pid --no-headers
