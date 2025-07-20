@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script lists all currently running process IDs (PIDs)
+# Displays all running processes with full hierarchy in user-friendly format
 
-ps -eo pid --no-headers
+ps -eo user,pid,pcpu,pmem,vsz,rss,tty,stat,start,time,command --forest
