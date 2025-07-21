@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-# Kills all processes except the parent
+# Infinite loop that handles SIGTERM
+
+trap 'echo "I am invincible!!!"' SIGTERM
+
 while true
 do
-  echo "I am the only one"
-  sleep 1
+  echo "To infinity and beyond"
+  sleep 2
 done
