@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script finds and sends SIGTERM to the 7-highlander process
+
+# Get the PID of 7-highlander
+PID=$(ps aux | grep '[7]-highlander' | awk '{print $2}')
+
+# Send SIGTERM if PID is found
+if [ -n "$PID" ]; then
+    kill "$PID"
+fi
