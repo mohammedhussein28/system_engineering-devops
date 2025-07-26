@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# This script runs indefinitely and handles SIGTERM gracefully
+# A Bash script that displays an infinite message and prints OK on SIGTERM
 
-trap "echo I am invincible!!!" SIGTERM
+trap 'echo OK' SIGTERM
 
 while true
 do
